@@ -1,0 +1,107 @@
+/* style.css */
+
+
+/* grid format*/
+
+
+.container{
+   display:grid;
+   grid-template-columns: auto auto auto auto auto;
+   grid-template-rows: auto auto auto auto auto;
+   background-color: rgb(29, 27, 27);
+   padding: 10px;
+   grid-gap: 10px;
+   height: 1000px;
+}
+
+
+/* grids */
+.item1{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   background-color: rgb(240, 89, 89);
+}
+.item2{
+   grid-column-start: 3;
+   grid-column-end: 4;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   background-color: rgb(255, 255, 255);
+}
+.item3{
+   grid-column-start: 4;
+   grid-column-end: 6;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   background-color: rgb(255, 255, 255);
+}
+.item4{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end:4;
+   background-color: rgb(68, 211, 255);
+}
+.item5{
+   grid-row-start: 2;
+   grid-row-end: 4;
+   background-color: rgb(0, 0, 0);
+}
+.item6{
+   grid-column-start: 4;
+   grid-column-end: 6;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   background-color: rgb(255, 246, 122);
+}
+.item7{
+   grid-column-start: 4;
+   grid-column-end: 6;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   background-color: rgb(255, 255, 255);
+}
+.item8{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: rgb(255,246,122);
+}
+.item9{
+   grid-column-start: 3;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: rgb(240,89,89);
+}
+.item10{
+   grid-column-start: 4;
+   grid-column-end: 6;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: rgb(240,89,89);
+}
+.item11{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 5;
+   grid-row-end: 6;
+   background-color: rgb(255, 255, 255);
+}
+.item12{
+   grid-column-start: 3;
+   grid-column-end: 5;
+   grid-row-start: 5;
+   grid-row-end: 6;
+   background-color: rgb(68,211,255);
+}
+.item13{
+   grid-column-start: 5;
+   grid-column-end: 6;
+   grid-row-start: 5;
+   grid-row-end: 6;
+   background-color: rgb(255, 246, 122);
+}
